@@ -39,7 +39,7 @@ def main():
     while option != 'q':
         if option == 'p':
             #create computers choice through random index between 0-2
-            computer_option = options[random.randrange(0,2)]
+            computer_option = options[random.randrange(1,3)]
             
             #get correct user choice
             try:
